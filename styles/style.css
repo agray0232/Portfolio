@@ -11,11 +11,12 @@ h1
 p, li
 {
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 1px;
 }
 #my-pic
 {
+  position:absolute;
   min-width: 15%;
   min-height: 15%;
   max-width: 35%;
@@ -23,4 +24,11 @@ p, li
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#main-body
+{
+  position: relative;
+  left:30px;
+  top:500px;
 }
