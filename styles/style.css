@@ -1,5 +1,6 @@
 html
 {
+  background-color: #A9A9A9;
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
 }
@@ -17,8 +18,8 @@ p, li
 #my-pic
 {
   position:absolute;
-  min-width: 15%;
-  min-height: 15%;
+  min-width: 5%;
+  min-height: 5%;
   max-width: 35%;
   max-height: 35%;
   display: block;

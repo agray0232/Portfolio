@@ -7,7 +7,7 @@ image.onclick = function()
 
 function randomChange()
 {
-    var leftChange = 600 * Math.random();
+    var leftChange = 1000 * Math.random();
     var upChange = 300 * Math.random();
     var sizeChange = 600 * Math.random();
 
