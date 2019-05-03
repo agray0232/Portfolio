@@ -11,24 +11,24 @@ function randomChange()
     var upChange = 300 * Math.random();
     var sizeChange = 600 * Math.random();
 
-    var sizeString = sizeChange.toString() + "px";
-    var leftString = leftChange.toString() + "px";
-    var upString = upChange.toString() + "px";
-    image.style.width = sizeString;
-    image.style.left = leftString;
-    image.style.up = upString;
+    image.style.width = sizeChange.toString() + "px";
+    image.style.left = leftChange.toString() + "px";
+    image.style.up = upChange.toString() + "px";
 }
 
 function validatePass()
 {
+  var passwordValid = false;
+
   var correctPassword = "Mellon";
   if(document.getElementById('password').value == correctPassword)
   {
-    return true;
+    passwordValid = true;
   }
   else
   {
     alert('You are no friend');
-    return false;
   }
+
+  return passwordValid;
 }
