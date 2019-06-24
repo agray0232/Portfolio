@@ -1,0 +1,3 @@
+[submodule "projects/scene-it"]
+	path = projects/scene-it
+	url = https://github.com/agray0232/scene-it.git
